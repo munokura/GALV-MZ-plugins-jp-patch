@@ -1,5 +1,5 @@
 /*:ja
- * @plugindesc (v.1.3) カメラの焦点をより詳細に制御できます。プラグインコマンドのドキュメントを表示します。
+ * @plugindesc (v.1.3) カメラの焦点をより詳細に制御できます。
  * @url http://galvs-scripts.com
  * @target MZ
  * @author Galv
