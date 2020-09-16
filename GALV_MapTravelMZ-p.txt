@@ -38,9 +38,9 @@
  * @default 180
  *
  * @param spriteFrames
- * @text デフォルトの位置フレーム
+ * @text 位置画像のフレーム数
  * @type number
- * @desc 確認ウィンドウの幅
+ * @desc 位置情報画像のアニメーションのフレーム数
  * @default 3
  *
  * @param frameSpeed
@@ -139,7 +139,7 @@
  * @text アニメーションフレーム
  * @type number
  * @default 3
- * @desc 位置情報画像のアニメーションのフレーム。無入力でプラグインのデフォルトを使用
+ * @desc 位置情報画像のアニメーションのフレーム。0でプラグインのデフォルトを使用
  *
  *
  * @command openMap
