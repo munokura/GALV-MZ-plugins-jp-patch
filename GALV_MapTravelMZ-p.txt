@@ -70,14 +70,14 @@
  * @arg bgImages
  * @text 背景画像(必須)
  * @type string[]
- * @defalt imagename,0,0,255
- * @desc 背景設定のリスト。ファイル名,x座標,y座標,不透明度
+ * @default ["imagename,0,0,255"]
+ * @desc 背景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
  *
  * @arg fgImages
  * @text 前景画像(必須)
  * @type string[]
- * @defalt imagename,0,0,255
- * @desc 前景設定のリスト。ファイル名,x座標,y座標,不透明度
+ * @default ["imagename,0,0,255"]
+ * @desc 前景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
  *
  *
  * @command setLocation
