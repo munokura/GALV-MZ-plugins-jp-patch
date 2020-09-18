@@ -34,7 +34,6 @@
  * @default
  * @text 画像
  * @type file
- * @require 1
  * @dir img/layers/
  * @desc 画像ファイル名(/img/layers/内)
  *
@@ -100,7 +99,6 @@
  * @arg graphic
  * @text 画像
  * @type file
- * @require 1
  * @dir img/layers/
  * @desc 画像ファイル名(/img/layers/内)
  * @default

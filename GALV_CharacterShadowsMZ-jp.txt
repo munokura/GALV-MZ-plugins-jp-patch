@@ -8,7 +8,6 @@
  * @text 影の画像
  * @desc 使用される画像ファイル(/img/system/フォルダ内)
  * @type file
- * @require 1
  * @dir img/system
  * @default Shadow1
  * 

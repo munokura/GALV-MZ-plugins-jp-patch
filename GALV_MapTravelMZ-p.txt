@@ -63,7 +63,6 @@
  * @arg mapImage
  * @text マップ画像(必須)
  * @type file
- * @require 1
  * @dir img/maptravel
  * @desc 使用するマップ画像の名前を指定します。(/img/maptravel/内)
  *
@@ -97,7 +96,6 @@
  * @arg image
  * @text 画像名(必須)
  * @type file
- * @require 1
  * @dir img/maptravel
  * @desc 使用する場所画像のファイル名(/img/maptravel/内)
  *
