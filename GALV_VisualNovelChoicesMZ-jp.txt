@@ -1,0 +1,90 @@
+/*:ja
+ * @plugindesc (v.1.0) 「選択肢」のメッセージボックスの表示方法を変更し、ビジュアルノベルのように表示します。
+ * @url http://galvs-scripts.com
+ * @target MZ
+ * @author Galv
+ * @orderAfter GALV_MessageStylesMZ
+ * 
+ * @help
+ * 翻訳:ムノクラ
+ * https://fungamemake.com/
+ * https://twitter.com/munokura/
+ *
+ * 元プラグイン:
+ * https://galvs-scripts.com/2020/11/17/mz-visual-novel-choices/
+ *
+ *   Galv's Visual Novel Choices
+ * 
+ * 選択肢をより視覚的なスタイルで表示します。
+ * 選択ボタンの画像は/img/system/フォルダに入れて、
+ * 名前を VNButtons.png にしてください。
+ * これは、各ボタンを1つのファイルにまとめたものです。
+ *
+ * サンプル画像は下記のサンプルプロジェクト内に含まれています。
+ * https://galvs-scripts.com/2016/03/14/mv-visual-novel-choices/
+ * 
+ * 「コマンド幅」と「コマンド高さ」の設定はボタンのサイズをコントロールし、
+ * 「コマンドギャップ」はボタンとボタンの間のスペースをコントロールします。
+ * 「コマンド幅」プラグインパラメーターが
+ * 画像のピクセル幅と同じであることを確認してください。
+ * 
+ * VNButtonsファイルの最初のボタン画像はボタン0で、
+ * これはボタンの上に表示されるカーソル画像です。
+ * 選択オプションテキストに何も指定されていない場合に
+ * 表示されるデフォルトのボタンは、ボタン1（カーソル画像の下）になります。
+ * 
+ * 選択肢オプションのテキストに \B[x] を使用すると、
+ * その選択肢（xは行番号）とボタンの画像を指定できます。
+ *  
+ * 使用例
+ *   ◆選択肢の表示：はい\B[2], いいえ\B[4] (ウィンドウ, 右, #1, #2)
+ *  ：はい\B[2]のとき
+ *    ◆
+ *  ：いいえ\B[4]のとき
+ *    ◆
+ *  ：分岐終了
+ * 
+ * プラグイン設定の "無効化ボタン "は、他のプラグインを使っている場合に、
+ * 次のような選択コマンドを無効化するためのものです。
+ * HIME Disabled Choice Conditions
+ * 
+ * ----------------------------------------------------------------------------
+ *  スクリプト呼び出し:
+ * ----------------------------------------------------------------------------
+ * 
+ *        $gameSystem.vnChoices = status;      // status:(true / false)
+ * 
+ * @param Command Width
+ * @text コマンド幅
+ * @desc 選択コマンドの幅。VNButtons.pngの幅以下の必要があります。
+ * @default 700
+ * @type number
+ * 
+ * @param Command Height
+ * @text コマンド高さ
+ * @desc 選択コマンドの高さ
+ * @default 48
+ * @type number
+ * 
+ * @param Always Middle
+ * @text 常に中央
+ * @desc 「選択肢を表示」ウィンドウの位置に関係なく、中央に選択肢を表示します。
+ * @default true
+ * @type boolean
+ * @on 常に中央に表示
+ * @off ウィンドウ位置に従う
+ * 
+ * @param Message Gap
+ * @text メッセージとの距離
+ * @desc 選択肢がメッセージウィンドウから離れて表示される距離
+ * @default 0
+ * @type number
+ * 
+ * @param Disabled Button
+ * @text 無効化ボタン
+ * @desc 無効化された選択肢のボタンを表示するために使用される行番号 (選択肢を無効化できるプラグインを使用している場合)
+ * @default 3
+ * @type number
+ * 
+ * @requiredAssets img/system/VNButtons
+ */
