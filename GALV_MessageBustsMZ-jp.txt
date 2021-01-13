@@ -12,6 +12,8 @@
  * https://twitter.com/munokura/
  * 
  * 元プラグイン:
+ * https://galvs-scripts.com/2020/09/22/mz-message-busts/
+ *
  *   Galv's Message Busts
  * ----------------------------------------------------------------------------
  * '文章の表示'イベントコマンドで選択された顔に
