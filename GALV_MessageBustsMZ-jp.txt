@@ -137,7 +137,7 @@
  * @on 反転する
  * @off 反転しない
  * @default false
- * @desc バストがデフォルト画像から反転するか(true または false)
+ * @desc バストがデフォルト画像から反転するか(true / false)
  * 
  * 
  * @command bustStatus
