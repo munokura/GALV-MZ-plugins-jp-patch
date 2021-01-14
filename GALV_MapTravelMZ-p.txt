@@ -4,160 +4,6 @@
  * @target MZ
  * @author Galv
  *
- * @param varMap
- * @text 転送マップ変数
- * @type variable
- * @desc マップIDを代入する変数。プレイヤーが転送されます。
- * @default 1
- *
- * @param xVar
- * @text 転送X変数
- * @type variable
- * @desc プレイヤーを転送するx座標を代入する変数
- * @default 2
- *
- * @param yVar
- * @text 転送Y変数
- * @type variable
- * @desc プレイヤーを転送するy座標を代入する変数
- * @default 3
- *
- * @param textConfirm
- * @text 確認の表示テキスト
- * @desc 転送を実行するための確認ウィンドウに表示テキスト
- * @default 転送
- *
- * @param textCancel
- * @text キャンセルの表示テキスト
- * @desc キャンセルの確認画面に表示される文字列。
- * @default キャンセル
- *
- * @param windowWidth
- * @text 確認のウィンドウ幅
- * @desc 確認ウィンドウの幅
- * @default 180
- *
- * @param spriteFrames
- * @text 位置画像のフレーム数
- * @type number
- * @desc 位置情報画像のアニメーションのフレーム数
- * @default 3
- *
- * @param frameSpeed
- * @text フレーム速度
- * @type number
- * @desc フレームアニメーションの速度(小さい方が速い)
- * @default 10
- *
- *
- * @command createMap
- * @text マップの作成
- * @desc ゲーム中に呼び出すマップを作成します。
- *
- * @arg mapId
- * @text マップID(必須)
- * @type number
- * @default 0
- * @desc マップの識別番号(マップIDである必要はありません)
- *
- * @arg mapImage
- * @text マップ画像(必須)
- * @type file
- * @dir img/maptravel
- * @desc 使用するマップ画像の名前を指定します。(/img/maptravel/内)
- *
- * @arg bgImages
- * @text 背景画像(必須)
- * @type string[]
- * @default ["imagename,0,0,255"]
- * @desc 背景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
- *
- * @arg fgImages
- * @text 前景画像(必須)
- * @type string[]
- * @default ["imagename,0,0,255"]
- * @desc 前景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
- *
- *
- * @command setLocation
- * @text 場所の設定
- * @desc 作成した転送マップに場所を作成します。
- *
- * @arg mapId
- * @text マップID(必須)
- * @type number
- * @default 0
- * @desc 作成したマップの識別番号
- *
- * @arg name
- * @text 場所名(必須)
- * @desc リストに表示される場所名
- *
- * @arg image
- * @text 画像名(必須)
- * @type file
- * @dir img/maptravel
- * @desc 使用する場所画像のファイル名(/img/maptravel/内)
- *
- * @arg mx
- * @text X位置(必須)
- * @type number
- * @default 0
- * @desc マップ画像上の場所のx位置
- *
- * @arg my
- * @text Y位置(必須)
- * @type number
- * @default 0
- * @desc マップ画像上の場所のy位置
- *
- * @arg tmid
- * @text 転送マップID(必須)
- * @type number
- * @default 0
- * @desc 転送マップID - 転送するゲーム内マップID
- *
- * @arg tx
- * @text 転送マップX(必須)
- * @type number
- * @default 0
- * @desc ゲーム内マップのx座標に転送
- *
- * @arg ty
- * @text 転送マップY(必須)
- * @type number
- * @default 0
- * @desc ゲーム内マップのy座標を転送
- *
- * @arg desc
- * @text 場所の説明
- * @desc 場所選択時に表示される説明。|記号で改行します。
- *
- * @arg f
- * @text アニメーションフレーム
- * @type number
- * @default 3
- * @desc 位置情報画像のアニメーションのフレーム。0でプラグインのデフォルトを使用
- *
- *
- * @command openMap
- * @text マップを開く
- * @desc 作成したIDを選択して転送マップシーンを開きます。
- *
- * @arg mapId
- * @text マップID(必須)
- * @type number
- * @default 0
- * @desc 作成したマップの識別番号
- *
- * @arg preventCancel
- * @text キャンセル防止
- * @type boolean
- * @on キャンセル防止
- * @off キャンセル可能
- * @default false
- * @desc マップ移動シーンをプレイヤーがキャンセルの可否を指定。防止:true / 可能:false
- *
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
@@ -348,5 +194,158 @@
  * バグの可能性がありますが、
  * 表示したくない場合にはダミーの画像を用意する必要がありそうです。
  *
- * ---------------------------------------------------------------------------
+ *
+ * @param varMap
+ * @text 転送マップ変数
+ * @type variable
+ * @desc マップIDを代入する変数。プレイヤーが転送されます。
+ * @default 1
+ *
+ * @param xVar
+ * @text 転送X変数
+ * @type variable
+ * @desc プレイヤーを転送するx座標を代入する変数
+ * @default 2
+ *
+ * @param yVar
+ * @text 転送Y変数
+ * @type variable
+ * @desc プレイヤーを転送するy座標を代入する変数
+ * @default 3
+ *
+ * @param textConfirm
+ * @text 確認の表示テキスト
+ * @desc 転送を実行するための確認ウィンドウに表示テキスト
+ * @default 転送
+ *
+ * @param textCancel
+ * @text キャンセルの表示テキスト
+ * @desc キャンセルの確認画面に表示される文字列。
+ * @default キャンセル
+ *
+ * @param windowWidth
+ * @text 確認のウィンドウ幅
+ * @desc 確認ウィンドウの幅
+ * @default 180
+ *
+ * @param spriteFrames
+ * @text 位置画像のフレーム数
+ * @type number
+ * @desc 位置情報画像のアニメーションのフレーム数
+ * @default 3
+ *
+ * @param frameSpeed
+ * @text フレーム速度
+ * @type number
+ * @desc フレームアニメーションの速度(小さい方が速い)
+ * @default 10
+ *
+ *
+ * @command createMap
+ * @text マップの作成
+ * @desc ゲーム中に呼び出すマップを作成します。
+ *
+ * @arg mapId
+ * @text マップID(必須)
+ * @type number
+ * @default 0
+ * @desc マップの識別番号(マップIDである必要はありません)
+ *
+ * @arg mapImage
+ * @text マップ画像(必須)
+ * @type file
+ * @dir img/maptravel
+ * @desc 使用するマップ画像の名前を指定します。(/img/maptravel/内)
+ *
+ * @arg bgImages
+ * @text 背景画像(必須)
+ * @type string[]
+ * @default ["imagename,0,0,255"]
+ * @desc 背景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
+ *
+ * @arg fgImages
+ * @text 前景画像(必須)
+ * @type string[]
+ * @default ["imagename,0,0,255"]
+ * @desc 前景設定のリスト。ファイル名,x座標,y座標,不透明度(0-255)
+ *
+ *
+ * @command setLocation
+ * @text 場所の設定
+ * @desc 作成した転送マップに場所を作成します。
+ *
+ * @arg mapId
+ * @text マップID(必須)
+ * @type number
+ * @default 0
+ * @desc 作成したマップの識別番号
+ *
+ * @arg name
+ * @text 場所名(必須)
+ * @desc リストに表示される場所名
+ *
+ * @arg image
+ * @text 画像名(必須)
+ * @type file
+ * @dir img/maptravel
+ * @desc 使用する場所画像のファイル名(/img/maptravel/内)
+ *
+ * @arg mx
+ * @text X位置(必須)
+ * @type number
+ * @default 0
+ * @desc マップ画像上の場所のx位置
+ *
+ * @arg my
+ * @text Y位置(必須)
+ * @type number
+ * @default 0
+ * @desc マップ画像上の場所のy位置
+ *
+ * @arg tmid
+ * @text 転送マップID(必須)
+ * @type number
+ * @default 0
+ * @desc 転送マップID - 転送するゲーム内マップID
+ *
+ * @arg tx
+ * @text 転送マップX(必須)
+ * @type number
+ * @default 0
+ * @desc ゲーム内マップのx座標に転送
+ *
+ * @arg ty
+ * @text 転送マップY(必須)
+ * @type number
+ * @default 0
+ * @desc ゲーム内マップのy座標を転送
+ *
+ * @arg desc
+ * @text 場所の説明
+ * @desc 場所選択時に表示される説明。|記号で改行します。
+ *
+ * @arg f
+ * @text アニメーションフレーム
+ * @type number
+ * @default 3
+ * @desc 位置情報画像のアニメーションのフレーム。0でプラグインのデフォルトを使用
+ *
+ *
+ * @command openMap
+ * @text マップを開く
+ * @desc 作成したIDを選択して転送マップシーンを開きます。
+ *
+ * @arg mapId
+ * @text マップID(必須)
+ * @type number
+ * @default 0
+ * @desc 作成したマップの識別番号
+ *
+ * @arg preventCancel
+ * @text キャンセル防止
+ * @type boolean
+ * @on キャンセル防止
+ * @off キャンセル可能
+ * @default false
+ * @desc マップ移動シーンをプレイヤーがキャンセルの可否を指定。防止:true / 可能:false
  */

@@ -17,8 +17,8 @@
  * /img/system/ の画像を使って、
  * ウィンドウスキンを使わずにデフォルトのメッセージボックスの後ろに表示します。
  *
- * サンプル画像は下記のサンプルプロジェクト内にあります。
- * https://galvs-scripts.com/2015/10/25/mv-message-background/
+ * このプラグインに必要なサンプル画像は下記のMASTER DEMO内にあります。
+ * https://galvs-scripts.com/rpgmaker/rmmz-plugins/
  * 
  * メッセージの背景画像には、特定の方法で名前を付ける必要があります。
  * /img/system/msgimg_X.png - Xはゲーム中に変更できる数字です。

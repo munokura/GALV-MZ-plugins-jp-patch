@@ -20,8 +20,8 @@
  * 名前を VNButtons.png にしてください。
  * これは、各ボタンを1つのファイルにまとめたものです。
  *
- * サンプル画像は下記のサンプルプロジェクト内に含まれています。
- * https://galvs-scripts.com/2016/03/14/mv-visual-novel-choices/
+ * このプラグインに必要なサンプル画像は下記のMASTER DEMO内にあります。
+ * https://galvs-scripts.com/rpgmaker/rmmz-plugins/
  * 
  * 「コマンド幅」と「コマンド高さ」の設定はボタンのサイズをコントロールし、
  * 「コマンドギャップ」はボタンとボタンの間のスペースをコントロールします。
