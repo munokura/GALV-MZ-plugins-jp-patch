@@ -1,0 +1,28 @@
+/*:ja
+ * @plugindesc (v.1.0) 一時停止を追加して、プレーヤーが誤って選択肢を決定するのを防ぎます。
+ * @url http://galvs-scripts.com
+ * @target MZ
+ * @author Galv
+ * 
+ * @help
+ * 翻訳:ムノクラ
+ * https://fungamemake.com/
+ * https://twitter.com/munokura/
+ * 
+ * 元プラグイン:
+ * https://galvs-scripts.com/2020/10/18/mz-choice-pause/
+ * 
+ *   Galv's Choice Pause MZ
+ * ----------------------------------------------------------------------------
+ * 選択ウィンドウが開いた後、
+ * プレーヤーが選択を選択できない数フレームの一時停止を追加します。
+ * ウィンドウが素早くポップアップし、
+ * テキストボックスの進行中に気付かない状態で、
+ * プレーヤーが誤って選択肢を決定する可能性を減らすためです。
+ * 
+ * 
+ * @param Pause Time
+ * @text 一時停止時間
+ * @desc プレイヤーが選択する前に一時停止するフレーム数
+ * @default 20
+ */
