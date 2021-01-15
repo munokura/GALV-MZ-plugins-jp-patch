@@ -10,7 +10,7 @@
  * https://twitter.com/munokura/
  * 
  * 元プラグイン:
- * https://galvs-scripts.com/category/rmmz-plugins/mz-on-map/
+ * https://galvs-scripts.com/2020/12/05/mz-vehicle-on-off-locations/
  * 
  *   Galv's Vehicle On/Off Locations MZ
  * ----------------------------------------------------------------------------
