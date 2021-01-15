@@ -4,60 +4,6 @@
  * @target MZ
  * @author Galv
  * 
- * @param loadFile
- * @text ロード後コモン
- * @desc セーブしたゲームが読み込まれた後に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param saveFile
- * @text セーブ後コモン
- * @desc プレイヤーがゲームをセーブした後に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param mapStart
- * @text マップ開始後コモン
- * @desc 新しいマップに到達した後に実行されるコモンイベントID(例:プレイヤーが新しいマップに移動する)
- * @default 0
- * @type common_event
- * 
- * @param mapLoad
- * @text マップロード後コモン
- * @desc マップシーンがロードされた後に実行されるコモンイベントID(例:メニューやシーンの表示と退出)
- * @default 0
- * @type common_event
- * 
- * @param battleLoad
- * @text 戦闘ロード後コモン
- * @desc 戦闘シーンの読み込み時に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param enterVehicle
- * @text 乗船後コモン
- * @desc 乗り物に乗った後に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param exitVehicle
- * @text 降船後コモン
- * @desc 乗り物を降りた後に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param gameOver
- * @text ゲームオーバーコモン
- * @desc ゲームオーバー画面の時に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
- * @param timerEnd
- * @text ターマー終了コモン
- * @desc タイマー終了時に実行されるコモンイベントID
- * @default 0
- * @type common_event
- * 
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
@@ -128,4 +74,58 @@
  * 'timerEnd'
  * // デフォルトタイマーが0になった後に実行
  * 
+ * 
+ * @param loadFile
+ * @text ロード後コモン
+ * @desc セーブしたゲームが読み込まれた後に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param saveFile
+ * @text セーブ後コモン
+ * @desc プレイヤーがゲームをセーブした後に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param mapStart
+ * @text マップ開始後コモン
+ * @desc 新しいマップに到達した後に実行されるコモンイベントID(例:プレイヤーが新しいマップに移動する)
+ * @default 0
+ * @type common_event
+ * 
+ * @param mapLoad
+ * @text マップロード後コモン
+ * @desc マップシーンがロードされた後に実行されるコモンイベントID(例:メニューやシーンの表示と退出)
+ * @default 0
+ * @type common_event
+ * 
+ * @param battleLoad
+ * @text 戦闘ロード後コモン
+ * @desc 戦闘シーンの読み込み時に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param enterVehicle
+ * @text 乗船後コモン
+ * @desc 乗り物に乗った後に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param exitVehicle
+ * @text 降船後コモン
+ * @desc 乗り物を降りた後に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param gameOver
+ * @text ゲームオーバーコモン
+ * @desc ゲームオーバー画面の時に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
+ * 
+ * @param timerEnd
+ * @text ターマー終了コモン
+ * @desc タイマー終了時に実行されるコモンイベントID
+ * @default 0
+ * @type common_event
  */
