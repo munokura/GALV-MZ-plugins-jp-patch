@@ -4,45 +4,6 @@
  * @target MZ
  * @author Galv
  * 
- * @param sImage
- * @text 影の画像
- * @desc 使用される画像ファイル(/img/system/フォルダ内)
- * @type file
- * @dir img/system
- * @default Shadow1
- * 
- * @param sOffset
- * @type number
- * @min -9007
- * @max 9007
- * @text 影オフセット
- * @desc 影のオフセット量(ピクセル)
- * @default 5
- * 
- * @command playerShadows
- * @text プレイヤーの影
- * @desc プレイヤーの影の表示/非表示を変更する
- * 
- * @arg pStatus
- * @text 表示切り替え
- * @type boolean
- * @on 表示
- * @off 非表示
- * @default true
- * @desc プレーヤーの影(表示:true / 非表示:false)
- * 
- * @command eventShadows
- * @text イベントの影
- * @desc イベントの影の表示/非表示を変更する
- * 
- * @arg eStatus
- * @text 表示切り替え
- * @type boolean
- * @on 表示
- * @off 非表示
- * @default true
- * @desc イベントの影(表示:true / 非表示:false)
- * 
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
@@ -86,5 +47,44 @@
  * 
  * イベントコマンド'スクリプト'で使用されます。 
  * 全てのプレイヤーキャラクター/イベントの影のオンとオフを切り替えます。
- *---------------------------------------------------------------------------
+ * 
+ * 
+ * @param sImage
+ * @text 影の画像
+ * @desc 使用される画像ファイル(/img/system/フォルダ内)
+ * @type file
+ * @dir img/system
+ * @default Shadow1
+ * 
+ * @param sOffset
+ * @type number
+ * @min -9007
+ * @max 9007
+ * @text 影オフセット
+ * @desc 影のオフセット量(ピクセル)
+ * @default 5
+ * 
+ * @command playerShadows
+ * @text プレイヤーの影
+ * @desc プレイヤーの影の表示/非表示を変更する
+ * 
+ * @arg pStatus
+ * @text 表示切り替え
+ * @type boolean
+ * @on 表示
+ * @off 非表示
+ * @default true
+ * @desc プレーヤーの影(表示:true / 非表示:false)
+ * 
+ * @command eventShadows
+ * @text イベントの影
+ * @desc イベントの影の表示/非表示を変更する
+ * 
+ * @arg eStatus
+ * @text 表示切り替え
+ * @type boolean
+ * @on 表示
+ * @off 非表示
+ * @default true
+ * @desc イベントの影(表示:true / 非表示:false)
  */

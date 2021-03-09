@@ -4,16 +4,6 @@
  * @target MZ
  * @author Galv
  * 
- * @param fSpeedMod
- * @text フレーム速度の調整式
- * @default f * 0.8
- * @desc フレーム速度を調整する式です(3フレーム以外の場合)。詳細はヘルプ参照
- * 
- * @param fileSymbol
- * @text ファイル名シンボル
- * @default %
- * @desc ファイル名に使用する記号。Example%(6).png。@に変更した場合 Example@(6).png
- * 
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
@@ -60,4 +50,14 @@
  *  f * 0.5 - 1
  *     フレーム数の0.5倍からマイナス1
  * 
+ * 
+ * @param fSpeedMod
+ * @text フレーム速度の調整式
+ * @default f * 0.8
+ * @desc フレーム速度を調整する式です(3フレーム以外の場合)。詳細はヘルプ参照
+ * 
+ * @param fileSymbol
+ * @text ファイル名シンボル
+ * @default %
+ * @desc ファイル名に使用する記号。Example%(6).png。@に変更した場合 Example@(6).png
  */

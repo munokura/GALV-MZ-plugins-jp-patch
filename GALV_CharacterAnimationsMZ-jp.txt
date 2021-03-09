@@ -4,42 +4,6 @@
  * @target MZ
  * @author Galv
  *
- * @param useJumpGraphic
- * @text ジャンプ画像使用
- * @type boolean
- * @on 有効
- * @off 無効
- * @default true
- * @desc ジャンプすると、キャラクターはキャラクターシートの4番目のキャラクタースロットを使用します。
- *
- * @param commonEventId
- * @text コモンイベントID
- * @type common_event
- * @default 0
- * @desc 待機時間が経過した時に実行されるコモンイベントID
- *
- * @param commonEventTime
- * @text コモンイベント時間
- * @type number
- * @default 0
- * @desc 上記の一般的なイベントがアクティブになるまでプレーヤーが待機状態であったフレームの量
- *
- * @param repeatCommonEvent
- * @text コモンイベント繰り返し
- * @type boolean
- * @on 有効
- * @off 無効
- * @default true
- * @desc プレーヤーが待機状態のままの場合、上記のコモンイベント時間とイベントIDが繰り返されます
- *
- * @command animOn
- * @text プレーヤーアニメーションオン
- * @desc プレーヤーのアニメーションの動きをオンにします。
- *
- * @command animOff
- * @text プレーヤーアニメーションオフ
- * @desc プレーヤーのアニメーションの動きをオフにします(プレーヤーの画像を手動で変更する場合に必要です)。
- *
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
@@ -126,5 +90,41 @@
  * ヒント:アクターは、データベース内の最初のキャラクター(待機)の位置に
  * 設定されていることを確認してください。
  * アクターは、新しいマップに移動する度に、選択した位置に戻ります。
- * ---------------------------------------------------------------------------
+ *
+ *
+ * @param useJumpGraphic
+ * @text ジャンプ画像使用
+ * @type boolean
+ * @on 有効
+ * @off 無効
+ * @default true
+ * @desc ジャンプすると、キャラクターはキャラクターシートの4番目のキャラクタースロットを使用します。
+ *
+ * @param commonEventId
+ * @text コモンイベントID
+ * @type common_event
+ * @default 0
+ * @desc 待機時間が経過した時に実行されるコモンイベントID
+ *
+ * @param commonEventTime
+ * @text コモンイベント時間
+ * @type number
+ * @default 0
+ * @desc 上記の一般的なイベントがアクティブになるまでプレーヤーが待機状態であったフレームの量
+ *
+ * @param repeatCommonEvent
+ * @text コモンイベント繰り返し
+ * @type boolean
+ * @on 有効
+ * @off 無効
+ * @default true
+ * @desc プレーヤーが待機状態のままの場合、上記のコモンイベント時間とイベントIDが繰り返されます
+ *
+ * @command animOn
+ * @text プレーヤーアニメーションオン
+ * @desc プレーヤーのアニメーションの動きをオンにします。
+ *
+ * @command animOff
+ * @text プレーヤーアニメーションオフ
+ * @desc プレーヤーのアニメーションの動きをオフにします(プレーヤーの画像を手動で変更する場合に必要です)。
  */
