@@ -1,5 +1,5 @@
 /*:ja
- * @plugindesc (v.1.0) Galv's Character Framesプラグインに足音を追加します。
+ * @plugindesc (v.1.2) Galv's Character Framesプラグインに足音を追加します。
  * @url http://galvs-scripts.com
  * @target MZ
  * @author Galv
@@ -7,7 +7,7 @@
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
- * https://twitter.com/munokura/
+ * https://x.com/munokura/
  * 
  * 元プラグイン:
  * https://galvs-scripts.com/2020/08/31/mz-character-frames/
@@ -48,7 +48,6 @@
  * @param events
  * @text イベント足音
  * @desc イベントに足音を再生するか設定
- * 再生:true / 無音:false
  * @type boolean
  * @on 再生
  * @off 無音

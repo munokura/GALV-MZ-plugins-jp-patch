@@ -1,5 +1,5 @@
 /*:ja
- * @plugindesc (v.1.0) 視差マッピング、霧などの画像レイヤーを作成します。
+ * @plugindesc (v.1.3) 視差マッピング、霧などの画像レイヤーを作成します。
  * @url http://galvs-scripts.com
  * @target MZ
  * @author Galv
@@ -7,7 +7,7 @@
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
- * https://twitter.com/munokura/
+ * https://x.com/munokura/
  *
  * 元プラグイン:
  * https://galvs-scripts.com/2020/08/24/mz-layer-graphics/

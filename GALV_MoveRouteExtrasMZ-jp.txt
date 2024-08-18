@@ -1,5 +1,5 @@
 /*:ja
- * @plugindesc (v.1.0) '移動ルート'内で使用できるスクリプトを追加します。スクリプト入力欄で右クリックして'ヘルプ'を表示し、使用可能なコマンドを表示できます。
+ * @plugindesc (v.1.1) '移動ルート'内で使用できるスクリプトを追加します。スクリプト入力欄で右クリックして'ヘルプ'を表示し、使用可能なコマンドを表示できます。
  * @url http://galvs-scripts.com
  * @target MZ
  * @author Galv
@@ -7,7 +7,7 @@
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
- * https://twitter.com/munokura/
+ * https://x.com/munokura/
  *
  * 元プラグイン:
  * https://galvs-scripts.com/2020/08/27/mz-move-route-extras/

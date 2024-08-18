@@ -1,5 +1,5 @@
 /*:ja
- * @plugindesc (v.1.3) カメラの焦点をより詳細に制御できます。
+ * @plugindesc (v.1.8) カメラの焦点をより詳細に制御できます。
  * @url http://galvs-scripts.com
  * @target MZ
  * @author Galv
@@ -7,7 +7,7 @@
  * @help
  * 翻訳:ムノクラ
  * https://fungamemake.com/
- * https://twitter.com/munokura/
+ * https://x.com/munokura/
  *
  * 元プラグイン:
  * https://galvs-scripts.com/2020/08/26/mz-cam-control/
@@ -102,6 +102,11 @@
  * @command disable
  * @text 焦点無効
  * @desc カメラの焦点を解除し、プレーヤーのデフォルトのカメラに戻します。 これを実行して、スクロールマップイベントコマンドを使用します。
+ *
+ * @command waitForCam
+ * @text 完了までウェイト
+ * @desc 対象を指定した後、次のイベントコマンドを実行する前にカメラが対象に到達するのを待ちます。
+ *
  *
  * @command zoom
  * @text ズーム
